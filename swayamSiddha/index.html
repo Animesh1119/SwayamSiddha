@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header class="hero-container">
+        <div class="top-bar">
+            <div class="info-bar">
+                <div class="location-info">
+                    <img loading="lazy"
+                        src="./assets/l1.svg"
+                        class="location-icon" alt="Location icon" />
+                    <div class="location-text">Store Location: Mandla, Madhya Pradesh, India</div>
+                </div>
+                <div class="language-currency">
+                    <div class="language-selector">
+                        <div class="selector-text">Eng</div>
+                        <img loading="lazy"
+                            src="./assets/l2.svg"
+                            class="selector-icon" alt="Language dropdown icon" />
+                    </div>
+                    <div class="currency-selector">
+                        <div class="selector-text">USD</div>
+                        <img loading="lazy"
+                            src="./assets/l3.svg"
+                            class="selector-icon" alt="Currency dropdown icon" />
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="logo-container">
+                    <img loading="lazy"
+                        src="./assets/l4.svg"
+                        class="logo-icon" alt="Ecobazar logo" />
+                    <div class="logo-text">SwayamSiddha</div>
+                </div>
+                
+                
+            </div>
+            <nav class="navigation-bar">
+                <div class="nav-items">
+                    <div class="category-dropdown">
+                        <div class="category-icon-container">
+                            <img loading="lazy"
+                                src="./assets/l7.svg"
+                                class="category-icon" alt="Categories icon" />
+                        </div>
+                        <div class="category-text">
+                            <div class="category-label">All Categories</div>
+                            <img loading="lazy"
+                                src="./assets/l8.svg"
+                                class="dropdown-icon" alt="Dropdown icon" />
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link nav-link-active">
+                        <div class="nav-link-text">Home</div>
+                        <img loading="lazy"
+                            src="./assets/l9.svg"
+                            class="nav-link-icon" alt="Home dropdown icon" />
+                    </a>
+                    <a href="#" class="nav-link nav-link-inactive">
+                        <div class="nav-link-text">Shop</div>
+                        <img loading="lazy"
+                            src="./assets/l10.svg"
+                            class="nav-link-icon" alt="Shop dropdown icon" />
+                    </a>
+                    <a href="#" class="nav-link nav-link-inactive">
+                        <div class="nav-link-text">Pages</div>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a881dbd6f83393f64c2a798f032fd8232386735cdcef0da8e0b589157b3626d3?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                            class="nav-link-icon" alt="Pages dropdown icon" />
+                    </a>
+                    <a href="#" class="nav-link nav-link-inactive">
+                        <div class="nav-link-text">Blog</div>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a881dbd6f83393f64c2a798f032fd8232386735cdcef0da8e0b589157b3626d3?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                            class="nav-link-icon" alt="Blog dropdown icon" />
+                    </a>
+                    <a href="#" class="nav-link nav-link-inactive">
+                        <div class="nav-link-text">About Us</div>
+                    </a>
+                    <a href="#" class="nav-link nav-link-inactive">
+                        <div class="nav-link-text">Contact Us</div>
+                    </a>
+                </div>
+                <form class="search-bar" role="search">
+                    <label for="search-input" class="visually-hidden">Search</label>
+                    <div class="search-input">
+                        <img loading="lazy"
+                            src="./assets/l5.svg"
+                            class="search-icon" alt="Search icon" />
+                        <input type="search" id="search-input" class="search-placeholder" placeholder="Search"
+                            aria-label="Search products" />
+                    </div>
+                    <button type="submit" class="search-button">Search</button>
+                </form>
+                <div class="cart-icons">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/835dce9c07ad59133ce7c18403880d89f631094ae22013591b4413ff11c03210?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                        class="cart-icon" alt="Shopping cart icon" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a022f4fd4bf01dac83e9fdcb714bd199ab621d9e92647298496c06ce69ddd8c9?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                        class="wishlist-icon" alt="Wishlist icon" />
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a78e037dcceb7b2b18de8c5b03d1fb5bd6433599c9f1efeff039fd7e2f9d055?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                        class="profile-icon" alt="User profile icon" />
+                </div>
+                
+            </nav>
+        </div>
+        <main class="hero-content">
+            <div class="hero-layout">
+                <aside class="sidebar">
+                    <nav class="sidebar-menu">
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/a825e5a4b10d50384fa69cb8367c70372337cee1e4bf0fdf5c93bbad49cc5d6f?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Fresh Fruit icon" />
+                            <div class="menu-text">Fresh Fruit</div>
+                        </a>
+                        <a href="#" class="menu-item menu-item-active">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/4767362ceadd20829a7c4d69e5432c8eb0d2c2fbb756ab99d8e7c8ab00bf454d?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Vegetables icon" />
+                            <div class="menu-text">Vegetables</div>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/948080f5b0d8ed12a11b2d53312bf5e83104d98a57ad5280084d6a58bb0550e6?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="River Fish icon" />
+                            <div class="menu-text">River Fish</div>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a14d8d1039d783df4f4190594db9f0e795e1cd144e635e731f471be67af9a34?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Chicken & Meat icon" />
+                            <div class="menu-text">Chicken & Meat</div>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/363e5ac9ccf6c0ef3bebc23e47d9441348ac9cb5c7a580c9f8303590feb4a72f?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Drink & Water icon" />
+                            <div class="menu-text">Drink & Water</div>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/a3914a4de7f8d1888d939df5813daaa63c44146cb39c9b6a0d516222621f66de?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Yogurt & Ice Cream icon" />
+                            <div class="menu-text">Yogurt & Ice Cream</div>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/894c336e969e5036fabfb32847941525d33ccdeeeccd04ab608f7d4a2c7cf12d?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Cake & Bread icon" />
+                            <div class="menu-text">Cake & Bread</div>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/92c78043dadc4f616f41c8c25b16e49025b3673d0791a3b97e6bc540f024547d?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Butter & Cream icon" />
+                            <div class="menu-text">Butter & Cream</div>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/352713fd7b3acb9b7eb91b42d8c91528ac62fa26395f94876ab2080bb8d338e9?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="Cooking icon" />
+                            <div class="menu-text">Cooking</div>
+                        </a>
+                        <a href="#" class="view-all">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/c8c6b9213bb12bb8c18e99180b7f63adb8d5ad593c2629a5870a7d2edc924a1e?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="menu-icon" alt="View all icon" />
+                            <div class="menu-text">View all Category</div>
+                        </a>
+                    </nav>
+                </aside>
+                <section class="main-content">
+                    <div class="hero-banner">
+                        <div class="banner-content">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/28e934ec17e406fb640f70b4d23917327e06d00abf0389c8ead175ed64c39bd7?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="banner-image" alt="Fresh and healthy organic food banner" />
+                            <h1 class="banner-title">Fresh & Healthy<br />Organic Food</h1>
+                            <div class="banner-offer">
+                                <div class="offer-line"></div>
+                                <div class="offer-text">
+                                    Sale Up to<br />
+                                    <span style="color: #fff;">48%</span> off
+                                </div>
+                            </div>
+                            <a href="#" class="shop-now-button">
+                                <span class="button-text">Shop now</span>
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b71786b2578919d9a0ac57f2588febda341b795f52f12c4b40616cbe34c006a7?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                    class="button-icon" alt="Shop now arrow" />
+                            </a>
+                            <div class="banner-indicators">
+                                <div class="indicator-active"></div>
+                                <div class="indicator-inactive"></div>
+                                <div class="indicator-inactive"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <section class="features-section">
+            <div class="features-container">
+                <div class="feature-column">
+                    <div class="feature-item">
+                        <div class="feature-icon-container">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/6df5269c5034703936e1d5e3e84acd99f38ac937480ef53889a070fba0da014f?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="feature-icon" alt="Free shipping icon" />
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="feature-title">Free Shipping</h3>
+                            <p class="feature-description">Free shipping with discount</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-column">
+                    <div class="feature-item">
+                        <div class="feature-icon-container">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ce7486b368259dee8b975ec95c48d1e3bfa95cfd6b3a7234f95af31cf65fa553?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="feature-icon" alt="Customer support icon" />
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="feature-title">Great Support 24/7</h3>
+                            <p class="feature-description">Instant access to Contact</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-column">
+                    <div class="feature-item feature-active">
+                        <div class="feature-icon-container">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/8927d146f16fa0cce16b4f3dc421b3897819ce8dcc410ac72e8db6d5871a0222?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="feature-icon" alt="Secure payment icon" />
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="feature-title">100% Secure Payment</h3>
+                            <p class="feature-description">We ensure your money is safe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-column">
+                    <div class="feature-item">
+                        <div class="feature-icon-container">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9414b856c36582a44668787cc552081be6e2ed83b52467624a431a0c0ebe5a34?apiKey=509e4690b81f4b8dbb37105557213cb8&"
+                                class="feature-icon" alt="Money-back guarantee icon" />
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="feature-title">Money-Back Guarantee</h3>
+                            <p class="feature-description">30 days money-back</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        
+        
+          
+          <footer class="footer-section">
+            <div class="footer-column">
+              <div class="footer-logo">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7cf158e2b5a7ce96024297a918a48c70677753e481a124ef64bdd7340be4574?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="Ecobazar logo" class="footer-logo-icon">
+                <span class="footer-logo-text">SwayamSiddha</span>
+              </div>
+              <p class="footer-description">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+              <div class="footer-contact">
+                <span class="footer-phone">+91 9786757876</span>
+                <span class="footer-or">or</span>
+                <span class="footer-email">swayamsiddha@gmail.com</span>
+              </div>
+            </div>
+            <nav class="footer-column">
+              <h3 class="footer-links-title">My Account</h3>
+              <a href="#" class="footer-link">My Account</a>
+              <a href="#" class="footer-link">Order History</a>
+              <a href="#" class="footer-link">Shopping Cart</a>
+              <a href="#" class="footer-link">Wishlist</a>
+            </nav>
+            <nav class="footer-column">
+              <h3 class="footer-links-title">Helps</h3>
+              <a href="#" class="footer-link">Contact</a>
+              <a href="#" class="footer-link">FAQs</a>
+              <a href="#" class="footer-link">Terms & Condition</a>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </nav>
+            <nav class="footer-column">
+              <h3 class="footer-links-title">Proxy</h3>
+              <a href="#" class="footer-link">About</a>
+              <a href="#" class="footer-link">Shop</a>
+              <a href="#" class="footer-link">Product</a>
+              <a href="#" class="footer-link">Track Order</a>
+            </nav>
+            <div class="footer-column">
+              <h3 class="app-download-title">Download Mobile App</h3>
+              <div class="app-download-buttons">
+                <a href="#" class="app-button">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/423657caf1c40abee7c5ceb8010b9447ffd28b1a8e4b537f25dcaf8c5fc34b10?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="App Store icon" class="app-icon">
+                  <div class="app-text">
+                    <span class="app-store-text">Download on the</span>
+                    <span class="app-name">App Store</span>
+                  </div>
+                </a>
+                <a href="#" class="app-button">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/53ccea44bbeb29e0f7991bd5a22e5ace0229522427b31852d7aef5ed6050c8b0?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="Google Play icon" class="app-icon">
+                  <div class="app-text">
+                    <span class="app-store-text">Download on the</span>
+                    <span class="app-name">Google Play</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </footer>
+          
+          <section class="copyright-section">
+            <p class="copyright-text">SwayamSiddha eCommerce © 2021. All Rights Reserved</p>
+            <div class="payment-methods">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b155c18339abbd1469ea0afe0299ac398cecb1540f1284c5518f26523085c824?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="Payment method" class="payment-icon">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ace0fefaa831da7dd4abeee2a2a7c17ae40a9fc8aabb0214329c43e442e17cb6?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="Payment method" class="payment-icon">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/096249e59aafb9c013804454a0bcc4f5f8d4741447b91b519e45bcf9b35f4111?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="Payment method" class="payment-icon">
+              <div class="secure-payment">
+                <div class="secure-payment-box">
+                  <div class="secure-text">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ad2b53a213202b02650c15fbae46772e9fa8147477411de21ac7df387b470d9?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="Secure icon" class="secure-icon">
+                    <span class="secure-label">Secure</span>
+                  </div>
+                  <span class="payment-label">Payment</span>
+                </div>
+              </div>
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d93b7142324745d655a7db75c007785e90545bef4099583a04e34973a8a874cc?apiKey=509e4690b81f4b8dbb37105557213cb8&" alt="Payment method" class="payment-icon">
+            </div>
+          </section>
+          
+    </header>
+</body>
+
+</html>
